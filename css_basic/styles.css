@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: url(dddd);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  color: darkred;
+}
+footer{
+  color: darkblue;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  border: 1px solid grey;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.logo {
+  font-size: 3em;
+}
+
